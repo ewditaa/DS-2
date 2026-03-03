@@ -55,5 +55,3 @@ Mid indices visited: [3, 5, 6]
 
 Search 2 -> Index: -1
 Mid indices visited: [3, 1, 0]
-
-Search in empty list -> Index: -1
