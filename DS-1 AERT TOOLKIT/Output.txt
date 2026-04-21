@@ -1,0 +1,58 @@
+
+OUTPUTS-
+
+Factorial:
+factorial(0) = 1
+factorial(1) = 1
+factorial(5) = 120
+factorial(10) = 3628800
+
+Fibonacci:
+
+Fibonacci(5)
+Naive Result: 5, Calls: 15
+Memo Result: 5, Calls: 9
+
+Fibonacci(10)
+Naive Result: 55, Calls: 177
+Memo Result: 55, Calls: 19
+
+Fibonacci(20)
+Naive Result: 6765, Calls: 21891
+Memo Result: 6765, Calls: 39
+
+Fibonacci(30)
+Naive Result: 832040, Calls: 2692537
+Memo Result: 832040, Calls: 59
+
+Tower of Hanoi:
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+Stored Moves in Stack:
+Move disk 1 from A to C
+Move disk 2 from B to C
+Move disk 1 from B to A
+Move disk 3 from A to C
+Move disk 1 from C to B
+Move disk 2 from A to B
+Move disk 1 from A to C
+
+Binary Search Test Cases:
+
+Search 7 -> Index: 3
+Mid indices visited: [3]
+
+Search 1 -> Index: 0
+Mid indices visited: [3, 1, 0]
+
+Search 13 -> Index: 6
+Mid indices visited: [3, 5, 6]
+
+Search 2 -> Index: -1
+Mid indices visited: [3, 1, 0]
